@@ -1,0 +1,37 @@
+{
+    "name": "CheckBall",
+    "version": "1.0.0",
+    "description": "CheckBall",
+    "main": "index.js",
+    "scripts": {
+        "start": "pm2 start --name CheckBall-5070 checkball.js",
+        "restart": "pm2 restart --name CheckBall-5070 checkball.js"
+    },
+    "author": "Checkball ",
+    "license": "ISC",
+    "dependencies": {
+        "axios": "^0.21.4",
+        "body-parser": "^1.19.0",
+        "cors": "^2.8.5",
+        "country-state-city": "^3.0.1",
+        "dotenv": "^10.0.0",
+        "excel4node": "^1.7.2",
+        "express": "^4.17.1",
+        "fcm-node": "^1.6.1",
+        "get-video-duration": "^4.0.0",
+        "image-size": "^1.0.0",
+        "jsonwebtoken": "^8.5.1",
+        "lodash": "^4.17.21",
+        "md5": "^2.3.0",
+        "moment": "^2.29.1",
+        "moment-timezone": "^0.5.34",
+        "mongoose": "^6.0.5",
+        "multer": "^1.4.3",
+        "nodemailer": "^6.7.6",
+        "path": "^0.12.7",
+        "qrcode": "^1.5.0",
+        "thumbler": "^1.1.2",
+        "tumbler": "0.0.6",
+        "twilio": "^3.70.0"
+    }
+}
